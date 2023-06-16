@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sean-api
+  name: landon-api
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: sean-api
+      app: landon-api
   template:
     metadata:
       labels:
-        app: sean-api
+        app: landon-api
     spec:
       containers:
-        - name: sean-api
-          image: us-docker.pkg.dev/april-2023-online-cit-262/sean-api/api-tests
+        - name: landon-api
+          image: us-docker.pkg.dev/group3-iam-project/landon-api/api-tests
           ports:
             - containerPort: 3000
           resources:
