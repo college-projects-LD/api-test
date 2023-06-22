@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: landon-api
-          image: us-docker.pkg.dev/group3-iam-project/landon-api/api-test
+          image: us-docker.pkg.dev/group3-iam-project/landon-api/api-test:1.0
           ports:
             - containerPort: 3000
           resources:
