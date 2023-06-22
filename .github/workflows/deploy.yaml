@@ -10,7 +10,7 @@ env:
   GKE_CLUSTER: cluster-1    # Add your cluster name here.
   GKE_ZONE: us-central1-c   # Add your cluster zone here.
   DEPLOYMENT_NAME: landon-api # Add your deployment name here.
-  IMAGE: sean-api
+  IMAGE: landon-api
 
 jobs:
   setup-build-publish-deploy:
